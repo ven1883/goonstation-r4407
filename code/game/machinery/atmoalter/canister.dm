@@ -8,7 +8,7 @@
 	var/valve_open = 0
 	var/release_pressure = ONE_ATMOSPHERE
 
-	var/color = "blue"
+	var/object_color = "blue"
 	var/filled = 0.5
 	pressure_resistance = 7*ONE_ATMOSPHERE
 	var/temperature_resistance = 1000 + T0C
@@ -17,26 +17,26 @@
 /obj/machinery/portable_atmospherics/canister/sleeping_agent
 	name = "Canister: \[N2O\]"
 	icon_state = "redws"
-	color = "redws"
+	object_color = "redws"
 /obj/machinery/portable_atmospherics/canister/nitrogen
 	name = "Canister: \[N2\]"
 	icon_state = "red"
-	color = "red"
+	object_color = "red"
 /obj/machinery/portable_atmospherics/canister/oxygen
 	name = "Canister: \[O2\]"
 	icon_state = "blue"
 /obj/machinery/portable_atmospherics/canister/toxins
 	name = "Canister \[Toxin (Bio)\]"
 	icon_state = "orange"
-	color = "orange"
+	object_color = "orange"
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide
 	name = "Canister \[CO2\]"
 	icon_state = "black"
-	color = "black"
+	object_color = "black"
 /obj/machinery/portable_atmospherics/canister/air
 	name = "Canister \[Air\]"
 	icon_state = "grey"
-	color = "grey"
+	object_color = "grey"
 
 /obj/machinery/portable_atmospherics/canister/update_icon()
 	src.overlays = 0
